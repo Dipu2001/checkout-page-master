@@ -4,6 +4,9 @@
 }
 h1{
     text-align: center;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 4em;
 }
 .checkout1{
     display: flex;
@@ -38,4 +41,33 @@ input{
 }
 h3{
     margin-bottom: 20px;
+}
+.checkout-card{
+    
+    
+    
+}
+.checkout-card img{
+    width: 50%;
+    height: 40%;
+}
+.card1, .card2{
+    display: flex;
+    gap: 20px;
+
+}
+.card1{
+    margin-bottom: 20px;
+}
+#out{
+    color: rgb(255, 0, 0);
+}
+.btn{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    
 }
